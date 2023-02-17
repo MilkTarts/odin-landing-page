@@ -131,7 +131,7 @@ body{
 }
 
 .sec-3{
-    padding: 200px 500px;
+    padding: 150px 500px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -154,7 +154,7 @@ body{
 }
 
 .sec-4{
-    padding: 200px 500px;
+    padding: 100px 500px;
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
@@ -194,4 +194,13 @@ body{
    padding: 5px 20px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
 
