@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 body{
     display: flex;
@@ -12,7 +12,7 @@ body{
 .sec-1{
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -75,6 +75,7 @@ body{
     justify-content: center;
     width: 500px;
     background-color: gray;
+    color: #F9FAF8;
     flex: 1;
 }
 
@@ -87,3 +88,77 @@ body{
     color: #F9FAF8;
 }
 
+.sec-2{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-text{
+    margin-top: 45px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.card-container{
+    display: flex;
+    height: 300px;
+    gap: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 280px;
+    width: 210px;
+    text-align: center;
+}
+
+.card-img{
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+}
+
+.sec-3{
+    padding: 200px 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.person{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.sec-4{
+    padding: 200px 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
