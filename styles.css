@@ -162,3 +162,36 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.call-card{
+    padding: 0 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    width: 800px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-head{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call-text{
+    margin-top: 5px;
+}
+
+.call-button{
+   color: white;
+   border: 2px solid white;
+   background-color: #3882F6;
+   border-radius: 5px;
+   text-align: center;
+   padding: 5px 20px;
+}
+
+
